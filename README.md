@@ -33,6 +33,7 @@ An interactive and fun Tic Tac Toe game built using **HTML, CSS, and JavaScript*
 ## 📸 Screenshot
 
 <img width="970" height="710" alt="screenshot png" src="https://github.com/user-attachments/assets/416f1f7a-cd9a-4ef7-bb3e-6f4aa9b71f26" />
+<img width="399" height="283" alt="screenshot2 png" src="https://github.com/user-attachments/assets/40a6bb48-7d2c-4980-a5c3-d24ad77bb230" />
 
 
 ---
