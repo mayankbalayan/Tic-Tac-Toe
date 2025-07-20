@@ -41,10 +41,10 @@ An interactive and fun Tic Tac Toe game built using **HTML, CSS, and JavaScript*
 ## 🗂 File Structure
 
 Tic-Tac-Toe/
-├── index.html # Main UI structure
-├── style.css # All styling and layout
-├── web.js # Game logic 
-└── README.md # This file
+- index.html # Main UI structure
+- style.css # All styling and layout
+- web.js # Game logic 
+- README.md # This file
 
 
 ---
