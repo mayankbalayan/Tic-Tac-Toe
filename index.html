@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ✅ Message Modal -->
+  <div class="msg_container hide">
+    <p id="msg">Winner</p>
+    <button id="new_btn">New Game</button>
+  </div>
+
+  <div class="container">
+
+   <div id="nameInputs">
+  <input type="text" id="player1Name" placeholder="Player 1 Name (0)">
+  <input type="text" id="player2Name" placeholder="Player 2 Name (X)">
+  <button id="setNamesBtn">Set Names</button>
+</div>
+
+    <!-- ✅ Scoreboard -->
+    <div id="scoreboard">
+  <span id="player1Label">Player 0</span>: <span id="xScore">0</span>
+  <span>|</span>
+  <span id="player2Label">Player X</span>: <span id="oScore">0</span>
+</div>
+
+    <h1>Tic Tac Toe</h1>
+
+    <!-- ✅ Game Board -->
+    <div id="gameBoard" class="board">
+      <button class="cell"></button>
+      <button class="cell"></button>
+      <button class="cell"></button>
+      <button class="cell"></button>
+      <button class="cell"></button>
+      <button class="cell"></button>
+      <button class="cell"></button>
+      <button class="cell"></button>
+      <button class="cell"></button>
+    </div>
+
+    <!-- ✅ Buttons -->
+    <button id="restartButton">Restart Game</button>
+    <button id="resetScoreBtn">Reset Scoreboard</button>
+    <button id="modeToggle">Switch to Smart Computer</button>
+    <button id="playerModeBtn">Switch to 2 Player Mode</button>
+
+  </div>
+
+  <script src="web.js"></script>
+</body>
+</html>
